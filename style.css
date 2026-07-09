@@ -172,3 +172,129 @@ header{
     padding:0 20px 25px;
     color:#555;
 }
+/*=========================
+ABOUT SECTION
+=========================*/
+
+.about{
+padding:100px 8%;
+text-align:center;
+background:#ffffff;
+}
+
+.about h2{
+font-size:42px;
+margin-bottom:25px;
+color:#222;
+}
+
+.about p{
+max-width:850px;
+margin:auto;
+font-size:18px;
+line-height:2;
+color:#555;
+}
+
+/*=========================
+REVIEWS
+=========================*/
+
+#reviews{
+padding:100px 8%;
+background:#f5f9fc;
+}
+
+#reviews h2{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+}
+
+.reviews{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.review{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.review:hover{
+transform:translateY(-10px);
+}
+
+.review p{
+margin:20px 0;
+color:#666;
+line-height:1.7;
+}
+
+.review h4{
+color:#00a3d9;
+}
+
+/*=========================
+CONTACT
+=========================*/
+
+#contact{
+padding:100px 8%;
+text-align:center;
+}
+
+#contact h2{
+font-size:42px;
+margin-bottom:40px;
+}
+
+.contact-box{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 15px 40px rgba(0,0,0,.08);
+max-width:700px;
+margin:auto;
+}
+
+.contact-box p{
+font-size:18px;
+margin:20px 0;
+}
+
+.contact-box a{
+text-decoration:none;
+color:#00a3d9;
+font-weight:600;
+}
+
+.whatsapp-btn{
+display:inline-block;
+margin-top:30px;
+padding:15px 35px;
+background:#25D366;
+color:white !important;
+border-radius:40px;
+transition:.3s;
+}
+
+.whatsapp-btn:hover{
+transform:scale(1.05);
+}
+
+/*=========================
+FOOTER
+=========================*/
+
+footer{
+background:#111;
+padding:30px;
+text-align:center;
+color:white;
+margin-top:80px;
+}
