@@ -77,7 +77,7 @@ header{
 /* HERO SECTION */
 
 .hero{
-    background: url("christopher-alvarenga-libRZfGCM10-unsplash.jpg") center/cover no-repeat;
+    background: url("christopher-alvarenga-libRZfGCM10-unsplash.jpg") center center / cover no-repeat;
     background:url("images/hero.jpg") center/cover no-repeat;
     display:flex;
     justify-content:center;
